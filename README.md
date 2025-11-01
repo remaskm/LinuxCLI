@@ -28,6 +28,7 @@ It replicates the behavior of core Linux shell commands
 | `zip` | Compresses one or more files or directories into a ZIP archive. Supports `-r` for recursive compression. |
 | `unzip` | Extracts ZIP archives into the current or specified directory using `-d`. |
 | `exit` | Safely closes the CLI session. |
+
 Error handling ensures invalid commands or parameters do not crash the program.
 
 Together, they create a compact, fully functional shell-like environment that mimics the structure and flow of real Linux terminals.
@@ -41,7 +42,7 @@ src/
 ├── Terminal.java    # Implements all command logic
 └── Main.java        # Runs the main CLI loop
 ```
-## 3. Example Session
+## Example Session
 ```bash
 USER@CLI:~$ mkdir folder1
 USER@CLI:~$ cd folder1
